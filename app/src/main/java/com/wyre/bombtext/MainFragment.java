@@ -49,6 +49,7 @@ public class MainFragment extends Fragment {
                     dialog.show(getFragmentManager(), "Dialog");
                     return;
                 }
+                //request the send sms permission
                 Dexter.withActivity(getActivity())
                         .withPermission(Manifest.permission.SEND_SMS)
                         .withListener(new PermissionListener() {

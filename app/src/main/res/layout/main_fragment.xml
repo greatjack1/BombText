@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="@string/label_number"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/TE_Phone_Number"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="@string/label_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/TE_amount"
+        android:layout_marginBottom="10dp"/>
+
+    <CheckBox
+        android:text="@string/checkbox_unique"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBoxUniques"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="@string/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/textView2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TE_Message_To_Send"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:text="@string/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_send_texts" />
+</LinearLayout>
+</ScrollView>

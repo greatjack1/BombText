@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BombText</string>
+    <string name="btn">Send Bomb Text</string>
+    <string name="label_number">Enter The Phone Number To Bomb</string>
+    <string name="label_amount">Enter The Amount Of Texts To Send</string>
+    <string name="label_text">Enter the message to send</string>
+    <string name="checkbox_unique">Append A Number To Each Text To Prevent Duplicated</string>
+    <string name="dialog_message">Oops! Some of the required fields are empty, please fill them all out and try again</string>
+</resources>
